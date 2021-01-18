@@ -82,6 +82,7 @@
       handleOutsideClick() {
         setTimeout(() => {
           this.showPopper = false;
+          this.confirmFilter(this.filteredValue);
         }, 16);
       },
 
